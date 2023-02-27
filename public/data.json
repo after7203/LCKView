@@ -1,0 +1,49 @@
+{
+  "teams": [
+    {
+      "kr-name": "젠지",
+      "eng-name": "GEN"
+    },
+    {
+      "kr-name": "T1",
+      "eng-name": "T1"
+    },
+    {
+      "kr-name": "리브 샌드박스",
+      "eng-name": "LSB"
+    },
+    {
+      "kr-name": "디플러스 기아",
+      "eng-name": "DK"
+    },
+    {
+      "kr-name": "KT 롤스터",
+      "eng-name": "KT"
+    },
+    {
+      "kr-name": "DRX",
+      "eng-name": "DRX"
+    },
+    {
+      "kr-name": "광동 프릭스",
+      "eng-name": "KDF"
+    },
+    {
+      "kr-name": "농심 레드포스",
+      "eng-name": "NS"
+    },
+    {
+      "kr-name": "브리온",
+      "eng-name": "BRO"
+    },
+    {
+      "kr-name": "한화생명 e스포츠",
+      "eng-name": "HLE"
+    }
+  ],
+  "games": {
+    "2023": {
+      "2": []
+    }
+  }
+}
