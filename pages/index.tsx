@@ -4,7 +4,7 @@ import * as cheerio from 'cheerio';
 import axios from 'axios'
 import { GetServerSideProps } from 'next';
 import { useEffect } from 'react';
-import MatchCard from './components/MatchCard/MatchCard';
+// import MatchCard from './components/MatchCard/MatchCard';
 
 export default function Home({ matches }: { matches: string }) {
   return (
