@@ -47,10 +47,15 @@ export const getServerSideProps: GetServerSideProps = async () => {
   try {
     const puppeteer = require("puppeteer");
     const browser = await puppeteer.launch();
+    console.log(1)
     const page = await browser.newPage();
+    console.log(2)
     await page.goto("https://game.naver.com/esports/League_of_Legends/schedule/lck");
+    console.log(3)
     const content = await page.content()
+    console.log(4)
     const $ = cheerio.load(content)
+    console.log(5)
     const lists = $(".card_item__3Covz").toArray();
     matches = JSON.stringify(lists.map((list) => {
       return {
