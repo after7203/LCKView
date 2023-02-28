@@ -19,9 +19,9 @@ export default function Home({ matches }: { matches: string }) {
           ))}
         </div>
         <TeamFilter />
-        {matches && JSON.parse(matches).map((matches: MatchCardType, idx: number) => (
+        {/* {matches && JSON.parse(matches).map((matches: MatchCardType, idx: number) => (
           <MatchCard key={idx} matches={matches} />
-        ))}
+        ))} */}
       </div>
     </>
   )
