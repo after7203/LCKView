@@ -6,7 +6,7 @@ const MatchCard = ({ matches }: { matches: MatchCardType }) => {
         <div>
             <hr />
             <div className="p-4">{matches.date}</div>
-            {matches.day_matches.map((match) => (
+            {matches && matches.day_matches.map((match) => (
                 <>
                     <hr />
                     <div className="p-4">{match.time}</div>
