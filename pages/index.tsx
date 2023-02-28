@@ -4,9 +4,12 @@ import * as cheerio from 'cheerio';
 import axios from 'axios'
 import { GetServerSideProps } from 'next';
 import { useEffect } from 'react';
-// import MatchCard from './components/MatchCard/MatchCard';
+import MatchCard from './components/MatchCard/MatchCard';
 
 export default function Home({ matches }: { matches: string }) {
+  useEffect(() => {
+    console.log(matches)
+  }, [])
   return (
     <>
       <div className='mx-auto' style={{ maxWidth: '1280px' }}>
@@ -19,9 +22,9 @@ export default function Home({ matches }: { matches: string }) {
           ))}
         </div>
         <TeamFilter />
-        {/* {matches && JSON.parse(matches).map((matches: MatchCardType, idx: number) => (
+        {matches && JSON.parse(matches).map((matches: MatchCardType, idx: number) => (
           <MatchCard key={idx} matches={matches} />
-        ))} */}
+        ))}
       </div>
     </>
   )
