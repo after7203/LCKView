@@ -5,13 +5,17 @@ const MatchCard = ({ matches }: { matches: MatchCardType }) => {
     return (
         <div>
             <hr />
-            <div className="p-4">{matches.date}</div>
-            {matches && matches.day_matches.map((match) => (
+            {matches &&
                 <>
-                    <hr />
-                    <div className="p-4">{match.time}</div>
+                    <div className="p-4">{matches.date}</div>
+                    {matches.day_matches.map((match) => (
+                        <>
+                            <hr />
+                            <div className="p-4">{match.time}</div>
+                        </>
+                    ))}
                 </>
-            ))}
+            }
         </div>
     );
 }
