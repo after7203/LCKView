@@ -4,7 +4,14 @@ const MatchCard = ({ matches }: { matches: MatchCardType }) => {
     console.log(matches)
     return (
         <div>
-            Enter
+            <hr />
+            <div className="p-4">{matches.date}</div>
+            {matches.day_matches.map((match) => (
+                <>
+                    <hr />
+                    <div className="p-4">{match.time}</div>
+                </>
+            ))}
         </div>
     );
 }
