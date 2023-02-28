@@ -5,10 +5,36 @@ import axios from 'axios'
 import { GetServerSideProps } from 'next';
 import { useEffect } from 'react';
 import MatchCard from './components/MatchCard/MatchCard';
+import puppeteer from "puppeteer";
 
 export default function Home({ matches }: { matches: string }) {
   useEffect(() => {
     console.log(matches)
+    // (async () => {
+    //   const puppeteer = require("puppeteer");
+    //   const browser = await puppeteer.launch();
+    //   const page = await browser.newPage();
+    //   await page.goto("https://game.naver.com/esports/League_of_Legends/schedule/lck");
+    //   const content = await page.content()
+    //   const $ = cheerio.load(content)
+    //   const lists = $(".card_item__3Covz").toArray();
+    //   setMatches(lists.map((list) => {
+    //     return {
+    //       date: $(list).find(".card_date__1kdC3").text(),
+    //       day_matches: $(list).find(".row_item__dbJjy").toArray().map(el => {
+    //         return {
+    //           time: $(el).find(".row_time__28bwr").text(),
+    //           state: $(el).find(".row_state__2RKDU").text(),
+    //           title: $(el).find(".row_title__1sdwN").text(),
+    //           home: $(el).find(".row_home__zbX5s .row_name__IDFHz").text(),
+    //           home_score: $(el).find(".row_home__zbX5s .row_score__2RmGQ").text(),
+    //           away: $(el).find(".row_away__3zJEV .row_name__IDFHz").text(),
+    //           away_score: $(el).find(".row_away__3zJEV .row_score__2RmGQ").text()
+    //         }
+    //       })
+    //     }
+    //   }));
+    // })()
   }, [])
   return (
     <>
@@ -47,8 +73,6 @@ export type MatchType = {
 
 export const getServerSideProps: GetServerSideProps = async () => {
   let matches = null
-  console.log(-1)
-  const puppeteer = require("puppeteer");
   console.log(0)
   const browser = await puppeteer.launch();
   console.log(1)
