@@ -46,6 +46,7 @@ export const getServerSideProps: GetServerSideProps = async () => {
   let matches = null
   try {
     const puppeteer = require("puppeteer");
+    console.log(0)
     const browser = await puppeteer.launch();
     console.log(1)
     const page = await browser.newPage();
