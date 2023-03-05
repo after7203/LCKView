@@ -2,48 +2,263 @@
   "teams": [
     {
       "kr-name": "젠지",
-      "eng-name": "GEN"
+      "eng-name": "GEN",
+      "roster": {
+        "top": {
+          "name": "Doran",
+          "src": "https://s-qwer.op.gg/images/lol/players/1923_1672129200488.png?image=w_180,f_webp"
+        },
+        "jungle": {
+          "name": "Peanut",
+          "src": "https://s-qwer.op.gg/images/lol/players/1865_1672123915565.png?image=w_180,f_webp"
+        },
+        "mid": {
+          "name": "Chovy",
+          "src": "https://s-qwer.op.gg/images/lol/players/1922_1672128155996.png?image=w_180,f_webp"
+        },
+        "adc": {
+          "name": "Peyz",
+          "src": "https://s-qwer.op.gg/images/lol/players/gen_peyz.png?image=w_180,f_webp"
+        },
+        "sup": {
+          "name": "Delight",
+          "src": "https://s-qwer.op.gg/images/lol/players/2522_1672132436089.png?image=w_180,f_webp"
+        }
+      }
     },
     {
       "kr-name": "T1",
-      "eng-name": "T1"
+      "eng-name": "T1",
+      "roster": {
+        "top": {
+          "name": "Zeus",
+          "src": "https://s-qwer.op.gg/images/lol/players/2518_1672132556836.png?image=w_180,f_webp"
+        },
+        "jungle": {
+          "name": "Oner",
+          "src": "https://s-qwer.op.gg/images/lol/players/1959_1672132555327.png?image=w_180,f_webp"
+        },
+        "mid": {
+          "name": "Faker",
+          "src": "https://s-qwer.op.gg/images/lol/players/1836_1672124045285.png?image=w_180,f_webp"
+        },
+        "adc": {
+          "name": "Gumayusi",
+          "src": "https://s-qwer.op.gg/images/lol/players/1957_1672129195161.png?image=w_180,f_webp"
+        },
+        "sup": {
+          "name": "Keria",
+          "src": "https://s-qwer.op.gg/images/lol/players/1939_1672127190351.png?image=w_180,f_webp"
+        }
+      }
     },
     {
       "kr-name": "리브 샌드박스",
-      "eng-name": "LSB"
+      "eng-name": "LSB",
+      "roster": {
+        "top": {
+          "name": "Burdol",
+          "src": "https://s-qwer.op.gg/images/lol/players/1963_1672132899503.png?image=w_180,f_webp"
+        },
+        "jungle": {
+          "name": "Willer",
+          "src": "https://s-qwer.op.gg/images/lol/players/1962_1672133512294.png?image=w_180,f_webp"
+        },
+        "mid": {
+          "name": "Clozer",
+          "src": "https://s-qwer.op.gg/images/lol/players/2506_1672131800107.png?image=w_180,f_webp"
+        },
+        "adc": {
+          "name": "Envyy",
+          "src": "https://s-qwer.op.gg/images/lol/players/2566_1672132091271.png?image=w_180,f_webp"
+        },
+        "sup": {
+          "name": "Kael",
+          "src": "https://s-qwer.op.gg/images/lol/players/2567_1672132433515.png?image=w_180,f_webp"
+        }
+      }
     },
     {
       "kr-name": "디플러스 기아",
-      "eng-name": "DK"
+      "eng-name": "DK",
+      "roster": {
+        "top": {
+          "name": "Canna",
+          "src": "https://s-qwer.op.gg/images/lol/players/1958_1672130741700.png?image=w_180,f_webp"
+        },
+        "jungle": {
+          "name": "Canyon",
+          "src": "https://s-qwer.op.gg/images/lol/players/1917_1672129093031.png?image=w_180,f_webp"
+        },
+        "mid": {
+          "name": "ShowMaker",
+          "src": "https://s-qwer.op.gg/images/lol/players/1915_1672127187672.png?image=w_180,f_webp"
+        },
+        "adc": {
+          "name": "Deft",
+          "src": "https://s-qwer.op.gg/images/lol/players/1763_1672126424510.png?image=w_180,f_webp"
+        },
+        "sup": {
+          "name": "Kellin",
+          "src": "https://s-qwer.op.gg/images/lol/players/2487_1672129181771.png?image=w_180,f_webp"
+        }
+      }
     },
     {
       "kr-name": "KT 롤스터",
-      "eng-name": "KT"
+      "eng-name": "KT",
+      "roster": {
+        "top": {
+          "name": "Kiin",
+          "src": "https://s-qwer.op.gg/images/lol/players/1896_1672126753152.png?image=w_180,f_webp"
+        },
+        "jungle": {
+          "name": "Cuzz",
+          "src": "https://s-qwer.op.gg/images/lol/players/1880_1672125683664.png?image=w_180,f_webp"
+        },
+        "mid": {
+          "name": "Bdd",
+          "src": "https://s-qwer.op.gg/images/lol/players/1879_1672124926384.png?image=w_180,f_webp"
+        },
+        "adc": {
+          "name": "Aiming",
+          "src": "https://s-qwer.op.gg/images/lol/players/2385_1672127183224.png?image=w_180,f_webp"
+        },
+        "sup": {
+          "name": "Lehends",
+          "src": "https://s-qwer.op.gg/images/lol/players/1919_1672125171121.png?image=w_180,f_webp"
+        }
+      }
     },
     {
       "kr-name": "DRX",
-      "eng-name": "DRX"
+      "eng-name": "DRX",
+      "roster": {
+        "top": {
+          "name": "Rascal",
+          "src": "https://s-qwer.op.gg/images/lol/players/1881_1672126589610.png?image=w_180,f_webp"
+        },
+        "jungle": {
+          "name": "Juhan",
+          "src": "https://s-qwer.op.gg/images/lol/players/2523_1672130134052.png?image=w_180,f_webp"
+        },
+        "mid": {
+          "name": "FATE",
+          "src": "https://s-qwer.op.gg/images/lol/players/1262_1672127689216.png?image=w_180,f_webp"
+        },
+        "adc": {
+          "name": "Deokdam",
+          "src": "https://s-qwer.op.gg/images/lol/players/262_1672130194824.png?image=w_180,f_webp"
+        },
+        "sup": {
+          "name": "BeryL",
+          "src": "https://s-qwer.op.gg/images/lol/players/1916_1672128601657.png?image=w_180,f_webp"
+        }
+      }
     },
     {
       "kr-name": "광동 프릭스",
-      "eng-name": "KDF"
+      "eng-name": "KDF",
+      "roster": {
+        "top": {
+          "name": "DuDu",
+          "src": "https://s-qwer.op.gg/images/lol/players/1975_1672131705237.png?image=w_180,f_webp"
+        },
+        "jungle": {
+          "name": "YoungJae",
+          "src": "https://s-qwer.op.gg/images/lol/players/1973_1672131985666.png?image=w_180,f_webp"
+        },
+        "mid": {
+          "name": "BuLLDoG",
+          "src": "https://s-qwer.op.gg/images/lol/players/2603_1672133517821.png?image=w_180,f_webp"
+        },
+        "adc": {
+          "name": "Taeyoon",
+          "src": "https://s-qwer.op.gg/images/lol/players/2530_1672132964347.png?image=w_180,f_webp"
+        },
+        "sup": {
+          "name": "Moham",
+          "src": "https://s-qwer.op.gg/images/lol/players/2808_1672133647500.png?image=w_180,f_webp"
+        }
+      }
     },
     {
       "kr-name": "농심 레드포스",
-      "eng-name": "NS"
+      "eng-name": "NS",
+      "roster": {
+        "top": {
+          "name": "DnDn",
+          "src": "https://s-qwer.op.gg/images/lol/players/2741_1672132944375.png?image=w_180,f_webp"
+        },
+        "jungle": {
+          "name": "Sylvie",
+          "src": "https://s-qwer.op.gg/images/lol/players/2758_1672132941524.png?image=w_180,f_webp"
+        },
+        "mid": {
+          "name": "FIESTA",
+          "src": "https://s-qwer.op.gg/images/lol/players/2743_1672132939046.png?image=w_180,f_webp"
+        },
+        "adc": {
+          "name": "Vital",
+          "src": "https://s-qwer.op.gg/images/lol/players/1738_1672130971775.png?image=w_180,f_webp"
+        },
+        "sup": {
+          "name": "Peter",
+          "src": "https://s-qwer.op.gg/images/lol/players/2568_1672133908697.png?image=w_180,f_webp"
+        }
+      }
     },
     {
       "kr-name": "브리온",
-      "eng-name": "BRO"
+      "eng-name": "BRO",
+      "roster": {
+        "top": {
+          "name": "Morgan",
+          "src": "https://s-qwer.op.gg/images/lol/players/1960_1672129731380.png?image=w_180,f_webp"
+        },
+        "jungle": {
+          "name": "UmTi",
+          "src": "https://s-qwer.op.gg/images/lol/players/2443_1672125689562.png?image=w_180,f_webp"
+        },
+        "mid": {
+          "name": "Karis",
+          "src": "https://s-qwer.op.gg/images/lol/players/2519_1672132438863.png?image=w_180,f_webp"
+        },
+        "adc": {
+          "name": "Hena",
+          "src": "https://s-qwer.op.gg/images/lol/players/2521_1672130142563.png?image=w_180,f_webp"
+        },
+        "sup": {
+          "name": "Effot",
+          "src": "https://s-qwer.op.gg/images/lol/players/1928_1672127350273.png?image=w_180,f_webp"
+        }
+      }
     },
     {
       "kr-name": "한화생명 e스포츠",
-      "eng-name": "HLE"
+      "eng-name": "HLE",
+      "roster": {
+        "top": {
+          "name": "Kingen",
+          "src": "https://s-qwer.op.gg/images/lol/players/2349_1672127182159.png?image=w_180,f_webp"
+        },
+        "jungle": {
+          "name": "Clid",
+          "src": "https://s-qwer.op.gg/images/lol/players/1927_1672125946720.png?image=w_180,f_webp"
+        },
+        "mid": {
+          "name": "Zeka",
+          "src": "https://s-qwer.op.gg/images/lol/players/2353_1672131000756.png?image=w_180,f_webp"
+        },
+        "adc": {
+          "name": "Viper",
+          "src": "https://s-qwer.op.gg/images/lol/players/1921_1672127179321.png?image=w_180,f_webp"
+        },
+        "sup": {
+          "name": "Life",
+          "src": "https://s-qwer.op.gg/images/lol/players/1943_1672128424961.png?image=w_180,f_webp"
+        }
+      }
     }
-  ],
-  "games": {
-    "2023": {
-      "2": []
-    }
-  }
+  ]
 }
