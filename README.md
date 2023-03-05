@@ -1,38 +1,19 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<div class="sc-dtMgUX hHtnkZ atom-one"><p><img src="https://velog.velcdn.com/images/after7203/post/fdfafced-89ac-42d9-86ec-2e98e06001fe/image.png"></p>
+<p>LCK뷰는 진행중인 LCK시즌에 대한 정보를 보여주는 사이트입니다.<br>
+Next.js를 배워서 사용해보았습니다.</p>
+<p>LCK데이터는 네이버e스포츠와 qwer.gg에서 크롤링해옵니다.</p>
+<p>3개(일정, 순위, 로스터)의 뷰로 구성되어있으며</p>
+<p><img src="https://velog.velcdn.com/images/after7203/post/d85261c5-4052-4b20-a3bf-78f940c450b5/image.png"></p>
+<p>일정 page는 요청을 받을때 getServerSideProps에서 경기결과를 크롤링해와서 화면을 구성합니다. (SSR)</p>
+<p><img src="https://velog.velcdn.com/images/after7203/post/11dcbd88-e8c0-4691-84ed-589f5d7c068c/image.png"></p>
+<p>순위 page는 먼저 SSG로 틀이되는 뷰를 구성 후, useSWR로 순위 정보를 크롤링해서 뷰에 끼워넣습니다. 데이터 fetch전 tailwind animation으로 loading placeholder를 만들어보았습니다.</p>
+<p><img src="https://velog.velcdn.com/images/after7203/post/7b62230a-740c-44bd-b9a9-bc384d805135/image.gif"></p>
+<p><img src="https://velog.velcdn.com/images/after7203/post/b62ee3ee-171f-4224-b1f9-b9b74b6e7f91/image.png"><br>
+<img src="https://velog.velcdn.com/images/after7203/post/6b6d90b0-2cf2-4862-bb2e-8f1baf7ae36a/image.png"></p>
+<p>로스터 page는 순수하게 외부 데이터없이 SSG로만 구성됩니다. </p>
+<p><img src="https://velog.velcdn.com/images/after7203/post/7d1dadec-fe83-48a1-932d-02b0bd4b6d73/image.png"><br>
+<img src="https://velog.velcdn.com/images/after7203/post/a5524161-69a7-4465-ad3d-aea8fc6f621f/image.png"><br>
+<img src="https://velog.velcdn.com/images/after7203/post/26f13a83-6d63-4017-a337-85ba7122dc53/image.png"></p>
+<p>또한 다크모드와 간단한 반응형 view도 만들어보았습니다.</p>
+<p>이번에 nextjs를 배우면서 tailwind를 사용해보았는데 hover, 미디어쿼리, 다크모드등도 클래스네임에 추가하여 간단히 구현할 수 있어서 편했다.</p>
+<p><a href="https://github.com/after7203/LCKView">https://github.com/after7203/LCKView</a></p></div>
