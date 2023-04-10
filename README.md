@@ -1,4 +1,4 @@
-<div class="sc-dtMgUX hHtnkZ atom-one"><p><img src="https://velog.velcdn.com/images/after7203/post/fdfafced-89ac-42d9-86ec-2e98e06001fe/image.png"></p>
+![LCKView](https://user-images.githubusercontent.com/48503261/230909379-c914044d-a833-49be-8dce-050878cccedc.gif)
 <p>LCK뷰는 진행중인 LCK시즌에 대한 정보를 보여주는 사이트입니다.<br>
 Next.js를 배워서 사용해보았습니다.</p>
 <p>LCK데이터는 네이버e스포츠와 qwer.gg에서 크롤링해옵니다.</p>
